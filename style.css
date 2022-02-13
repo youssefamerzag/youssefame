@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins' , 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(20, 230, 142);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index: 999 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px 150px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color :rgb(0, 0, 0);
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: -10%;
+    transition: 1s ;
+}
+
+.search {
+    transition: 1s ease;
+    margin-left: -10%;
+}
+
+.search ::placeholder{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.search input{
+    font-family: monospace;
+    margin-right: 150px;
+    border: solid 2px;
+    padding: 10px 80px;
+    background-color: rgb(255, 255, 255);
+    transition: 1S ease;
+    border-radius: 20px;
+}
+
+.search input:hover{
+    background-color: rgb(20, 230, 142);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+
+.navigation  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: medium ;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 25px;
+    text-align: center;
+    transition: 1s ;
+}
+
+.logo:hover{
+    color: rgb(45, 72, 224);
+    transition: 0.5s ;
+}
+
+.navigation :hover {
+    color: rgb(45, 72, 224);
+    transition: 0.5s ;
+}
+
+.main {
+    font-size: xx-large;
+    padding-top: 150px;
+    padding-left: 150px;
+    color: rgb(45, 72, 224);
+}
+
+
+
+.main {
+    width: 100%;
+    min-width: 100vh;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px black;
+}
+.main span {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 70px;
+    color: rgb(45, 224, 149);
+    text-shadow: 5px 5px 5px black;
+}
+
+.main h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px black;
+}
+
+.btn {
+    background-color: rgb(45, 224, 149);
+    color: rgb(255, 255, 255);
+    text-decoration:none ;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: solid 1px;
+    border-radius: 1ex;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(45, 224, 149);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-weight: 700;
+    box-shadow : 5px 5px 5px black;
+    transition: 1s ease;
+}
+
+
+
+.btn:active {
+  background-color: darkgreen;
+  box-shadow: 0 10px rgb(0, 0, 0);
+  transform: translateY(4px);
+}
+
+.btn:hover {
+    background-color: darkgreen;
+    margin-left: 20px;
+    transition: 0.5s ;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.cards {
+    margin-top :100px;
+    
+}
+
+.p1 {
+    flex-wrap: wrap;
+    text-shadow: 5px 5px 5px black ;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 30px;   
+    font-size: large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-left: 8%;
+    margin-right: 65%;
+    border-radius: 1em;
+    transition: 1s ease;
+}
+.p2 {
+    flex-wrap: wrap;
+    text-shadow: 5px 5px 5px black ;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 30px;   
+    font-size: large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: -290px;
+    margin-left: 38%;
+    margin-right: 35%;
+    border-radius: 1em;
+    transition: 1s ease;  
+    
+}
+.p3 {
+    flex-wrap: wrap;
+    text-shadow: 5px 5px 5px black ;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    padding-right: 30px;  
+    font-size: large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: -290px;
+    margin-left: 68%;
+    margin-right: 5%;
+    border-radius: 1em;
+    transition: 1s ease;  
+}
+
+.p1:hover {
+    transition: box-shadow 0.3s ease-out;
+    box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.555);
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
+
+.p2:hover {
+    transition: box-shadow 0.3s ease-out;
+    box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.555);
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
+
+.p3:hover {
+    transition: 0.3s  ;
+    box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.555);
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
+
+
+.copyright {
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.help {
+    padding-top: 25px;
+    padding-left: 15%;
+    transition: 1s ;
+}
+
+.company {
+    margin-top: -6.7%;
+    padding-left: 30%;
+    transition: 1s ;
+}
+
+.help a{
+    text-decoration: none;
+    color: darkgreen;
+    transition: 1s ;
+}
+
+.company a{
+    text-decoration: none;
+    color: darkgreen;
+    transition: 1s ;
+    
+}
+
+.help a:hover {
+    color: darkgreen;
+    padding-left: 20px;
+    transition: 0.5s ;
+}
+
+.company a:hover {
+    color: darkgreen;
+    padding-left: 20px;
+    transition: 0.5s ;
+}
+
+.icons a{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-right: 20px;
+    transition: 1s ;
+}
+
+
+.icons {
+    display: flex;
+    margin-top: -30px;
+    padding-left: 68.8%;
+    flex-direction: row;
+    transition: 1s ;
+}
+
+.icons:hover{
+    text-shadow: 5px 5px 5px black;
+    transition: 0.5s;
+    transform: translateY(3px);
+}
+
+.icons a:hover{
+    margin-top: 20px;
+    color: darkgreen;
+    transition: 0.5s;
+}
+
+
+.title {
+    margin-top: -5.9%;
+    padding-left: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.copy {
+    margin-top: 5%;
+    border: solid 2px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 70px;
+    border-right: unset;
+    border-top: unset;
+    border-left: unset;
+    transition: 1s ;
+
+    
+}
+
+.copy:hover{
+    background-color: rgb(0, 0, 0);
+    color: darkgreen;
+    border: solid 1px;
+    transition: 0.5s;
+}
+
+.title1 {
+    color: rgb(20, 230, 142);
+    padding-left: 34%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
